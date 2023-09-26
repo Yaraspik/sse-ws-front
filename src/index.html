@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat</title>
+</head>
+
+<body>
+  <div id="root">
+    <div class="chat-container container">
+      <div class="chat__header">
+        Самый крутой в мире чат
+      </div>
+      <div class="chat__container">
+        <div class="chat__userlist">
+          <span>Сейчас в чате:</span>
+        </div>
+        <div class="chat__area">
+          <div class="chat__messages-container">
+          </div>
+          <form class="form__group">
+            <input type="text" name="message" id="" class="chat__messages-input">
+          </form>
+        </div>
+      </div>
+    </div>
+    <dialog class="register-popup">
+      <div class="register-header">
+        <span class="register-title">Выберите псевдоним</span>
+      </div>
+      <div class="register-body">
+        <form class="register-form">
+          <input name="name" type="text" class="register-name register__input form-element">
+          <span class="register-error form-element"></span>
+          <button class="register-button">Продолжить</button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</body>
+
+</html>
